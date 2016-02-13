@@ -13,6 +13,7 @@
 		CAE6B9541C6FB97D008981A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE6B9521C6FB97D008981A4 /* Main.storyboard */; };
 		CAE6B9561C6FB97D008981A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE6B9551C6FB97D008981A4 /* Assets.xcassets */; };
 		CAE6B9591C6FB97D008981A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE6B9571C6FB97D008981A4 /* LaunchScreen.storyboard */; };
+		CAE6B9621C6FBE6C008981A4 /* YiDaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE6B9611C6FBE6C008981A4 /* YiDaVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CAE6B9551C6FB97D008981A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE6B9581C6FB97D008981A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAE6B95A1C6FB97D008981A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE6B9601C6FBE6C008981A4 /* YiDaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiDaVC.h; sourceTree = "<group>"; };
+		CAE6B9611C6FBE6C008981A4 /* YiDaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiDaVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CAE6B9571C6FB97D008981A4 /* LaunchScreen.storyboard */,
 				CAE6B95A1C6FB97D008981A4 /* Info.plist */,
 				CAE6B9491C6FB97D008981A4 /* Supporting Files */,
+				CAE6B9601C6FBE6C008981A4 /* YiDaVC.h */,
+				CAE6B9611C6FBE6C008981A4 /* YiDaVC.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				CAE6B9511C6FB97D008981A4 /* ViewController.m in Sources */,
 				CAE6B94E1C6FB97D008981A4 /* AppDelegate.m in Sources */,
 				CAE6B94B1C6FB97D008981A4 /* main.m in Sources */,
+				CAE6B9621C6FBE6C008981A4 /* YiDaVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
